@@ -23,14 +23,14 @@
         <div id="todo-lists">
             <div class="list">
                 <h2 class="list-title">Groceries</h2>
-                <ol>
-                    <li>Eggs</li>
-                    <li>Milk</li>
-                    <li>Cereal</li>
+                <ol id="grocery-list">
+                    <li><input type="checkbox" class="complete-item" onclick="completeListItem(this)">Eggs <button class="delete-item" onclick="deleteListItem(this.parentNode)"X</button></li>
+                    <li><input type="checkbox" class="complete-item" onclick="completeListItem(this)">Milk <button class="delete-item" onclick="deleteListItem(this.parentNode)"X</button></li>
+                    <li><input type="checkbox" class="complete-item" onclick="completeListItem(this)">Cereal <button class="delete-item" onclick="deleteListItem(this.parentNode)"X</button></li>
                 </ol>
 
             </div>
-            <input type="text"></input>
+            <input id="new-list-item" type="text"></input>
             <button onclick="addListItem()">Add Item</button>
         </div>
     </div>
