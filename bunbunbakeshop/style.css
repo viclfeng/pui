@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Avenir, sans-serif;
+    color: teal;
+}
+
+/*HOME BACKGROUND*/
+#home{
+	background-image: url('img/cinnabun-background.jpg');
+	background-position: center;
+	background-size: 100%;
+}
+
+/*********** HEADER ************/
+
+header {
+    font-family: Avenir, San Serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+/*TITLE*/
+
+.title {
+	text-align: center;
+	color: white
+}
+
+h1 {
+    margin: 500 0 0 0;
+	font-size: 100px;
+}
+
+h2 {
+	margin-top: -90px;
+	font-size: 25px;
+}
+p {
+	margin-top: -10px;
+	text-align: center;
+	font-style: italic;
+	
+}
+
+.title a {
+	color: white;
+	border: white;
+	border-width: thick;
+	outline: white;
+	margin-top: 100px;
+	
+}
+
+/*FLAVORS PAGE*/
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+#navigation a {
+	color: black;
+	font-size: 10px;
+	padding: 10 0 10 5;
+}
+
+/*PRODUCT PAGE*/
+
+.column-12 {
+	float: left;
+	width: 50%;
+}
