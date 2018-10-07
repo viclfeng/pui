@@ -68,13 +68,85 @@ p {
 
 #navigation a {
 	color: black;
-	font-size: 10px;
+	font-size: 14px;
 	padding: 10 0 10 5;
 }
 
 /*PRODUCT PAGE*/
 
-.column-12 {
-	float: left;
-	width: 50%;
+.pumpspice-img {
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#product-title {
+	text-align: center;
+	margin-top: 25px ;
+	color: black;
+}
+
+#product-des {
+	text-align: center;
+	margin-top: -20px;
+	color: dimgrey;
+}
+
+h3 {
+	color: black;
+}
+
+#quantity {
+	text-align: center;
+	
+}
+
+.column {
+	width: 12.5%;
+	column-gap: 15px;
+	
+}
+
+#glaze {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+	justify-content: center;
+	border: solid black 2px;
+}
+/*	width: 100px;
+	height: 50px;
+	border-radius: 0;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    background: grey;
+}
+*/
+
+.select {
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	
+}
+
+#buy {
+	text-align: center;
+	margin-top: 75px;
+	border: solid black 2px;
+	border-radius: 10px;
+	width: 20%;
+}
+
+/*OUR FLAVORS PAGE*/
+#flavors {
+	width: 33%;
+	justify-content: center;
+	align-items: center;
 }
