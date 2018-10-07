@@ -145,8 +145,16 @@ h3 {
 }
 
 /*OUR FLAVORS PAGE*/
-#flavors {
-	width: 33%;
+.column1 {
+	float: left;
+	width: 33.3%;
 	justify-content: center;
 	align-items: center;
+	margin-top: 50px;
 }
+
+.column1 p {
+	text-align: left;
+	margin-top: 15px;
+}
+
