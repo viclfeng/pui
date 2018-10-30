@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    font-family: Avenir, sans-serif;
+    color: teal;
+}
+
+/*HOME BACKGROUND*/
+#home{
+	background-image: url('img/cinnabun-background.jpg');
+	background-position: center;
+	background-size: 100%;
+}
+
+/*********** HEADER ************/
+
+header {
+    font-family: Avenir, San Serif;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+
+/*TITLE*/
+
+.title {
+	text-align: center;
+	color: white
+}
+
+h1 {
+    margin: 500 0 0 0;
+	font-size: 100px;
+}
+
+h2 {
+	margin-top: -90px;
+	font-size: 25px;
+}
+p {
+	margin-top: -10px;
+	text-align: center;
+	font-style: italic;
+
+}
+
+.title a {
+	color: white;
+	border: white;
+	border-width: thick;
+	outline: white;
+	margin-top: 100px;
+
+}
+
+/*FLAVORS PAGE*/
+
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.navigation a {
+	color: black;
+	font-size: 14px;
+	padding: 10 0 10 5;
+}
+
+/*PRODUCT PAGE*/
+
+.pumpspice-img {
+	align-content: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product-title {
+	text-align: center;
+	margin-top: 25px ;
+	color: black;
+}
+
+#product-des {
+	text-align: center;
+	margin-top: -20px;
+	color: dimgrey;
+}
+
+h3 {
+	color: black;
+}
+
+#quantity {
+	text-align: center;
+
+}
+
+.column {
+	width: 12.5%;
+	column-gap: 15px;
+
+}
+
+#glaze {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.button {
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	justify-content: center;
+	border: solid black 2px;
+}
+
+#buy {
+	text-align: center;
+	border: solid black 2px;
+	border-radius: 20px;
+	width: 20%;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 75px auto;
+	font-size: 18px;
+    color: black;
+}
+
+#buy:focus {
+    background: black;
+    color: white;
+}
+
+.product-info {
+	text-align: center;
+	border: solid black 2px;
+	border-radius: 20px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+
+/*OUR FLAVORS PAGE*/
+.column1 {
+	float: left;
+	width: 33.3%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.column1 p {
+	color: gray;
+	text-align: left;
+	margin-top: 15px;
+	text-decoration: none;
+}
+
+/*CART PAGE*/
+#cart-nav a {
+	color: white;
+}
+
+.shopping-cart {
+    width: 750px;
+    height: 423px;
+    margin: 80px auto;
+    background: white;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#cart-title {
+	color: black;
+	float: left;
+	padding: 20px 30px;
+	font-size: 24px;
+	border-bottom: 1px solid #DEDEDE;
+}
+
+.total-price {
+	float: right;
+	text-align: right;
+	margin: auto 15px auto auto;
+}
+
+.checkout {
+	float: bottom;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	margin: 10px auto;
+	padding: 10px 15px;
+}
+
+#cart-button {
+    float: right;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-top: 3px;
+    size: 10px;
+    padding: 2px;
+    text-decoration: none;
+}
+
+/* Formatting Table for Cart Page*/
+
+tr {
+    margin-left: 10px;
+}
+
+th {
+    float: center;
+    color: black;
+    font-size: 18px;
+    padding: 15px 25px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    margin-left: 10px;
+}
