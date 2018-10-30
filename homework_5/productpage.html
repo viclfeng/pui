@@ -4,6 +4,8 @@
 	<title>Bun Bun Bake Shop</title>
 	<!-- styles -->
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -18,44 +20,46 @@
 			</nav>
 		</header>
 	</div>
-	
-<div id="navigation">
+
+	<a href="cart.html" id="cart-button">CART</a>
+
+	<div class="navigation">
 		<span>
 			<a href="index.html">HOME /</a>
 			<a href="aboutus.html">OUR FLAVORS /</a>
 			<a href="productpage.html">PUMPKIN SPICE</a>
 		</span>
 	</div>
-	
+
 	<div class="product">
 		<img src="img/pumpspice.jpg" alt="pumpkinspice" width="300px" class="pumpspice-img" style>
-		<h2 id="product-title">PUMPKIN SPICE CINNAMON ROLL</h2>
+		<h2 class="product-title">PUMPKIN SPICE CINNAMON ROLL</h2>
 	</div>
-	
+
 	<div class="productdes">
 		<p id="product-des">A fall twist on our classic cinnnamon roll...</p>
 		<h3 id="quantity">QUANTITY</h3>
-		<div class="row">
+		<div class="row" id="qty">
 			<div class="column"><p style="color:white">1</p></div>
 			<div class="column"><p style="color:white">1</p></div>
-			<div class="column"><p>1</p></div>
-			<div class="column"><p>3</p></div>
-			<div class="column"><p>6</p></div>
-			<div class="column"><p>12</p></div>
+			<div class="column"><button class="product-info" onclick="addQty(1)">1</button></div>
+			<div class="column"><button class="product-info" onclick="addQty(3)">3</button></div>
+			<div class="column"><button class="product-info" onclick="addQty(6)">6</button></div>
+			<div class="column"><button class="product-info" onclick="addQty(12)">12</button></div>
 			<div class="column"></div>
 			<div class="column"></div>
 		</div>
 		<h3 id="glaze">GLAZE</h3>
-		<div class="row2">
+		<div class="row2" id="glazes">
 			<div class="column"><p style="color:white">1</p></div>
 			<div class="column"><p style="color:white">1</p></div>
-			<div class="column"><p>None</p></div>
-			<div class="column"><p>Sugar-Milk</p></div>
-			<div class="column"><p>Vanilla-Milk</p></div>
-			<div class="column"><p>Double Chocolate</p></div>
+			<div class="column"><button class="product-info" onclick="addGlaze('None')">None</button></div>
+			<div class="column"><button class="product-info" onclick="addGlaze('Sugar Milk')">Sugar-Milk</button></div>
+			<div class="column"><button class="product-info" onclick="addGlaze('Vanilla Milk')">Vanilla-Milk</button></div>
+			<div class="column"><button class="product-info" onclick="addGlaze('Double Chocolate')">Double Chocolate</button></div>
 			<div class="column"></div>
 		</div>
-		<h3 id="buy">$0 | BUY</h3>
+		<a id="buy">ADD TO CART</a>
 	</div>
 </body>
 </html>
