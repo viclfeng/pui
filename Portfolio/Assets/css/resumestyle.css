@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+.resume {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 40px;
+	animation-delay: 0.5s;
+	animation-name: resumeappear;
+	animation-duration: 1.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;	
+}
+
+@keyframes resumeappear {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+
